@@ -1,0 +1,14 @@
+{
+  "name": "examplecss",
+  "version": "1.0.0",
+  "description": "creating basic css styles using stylus preprocessor",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Cochran",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

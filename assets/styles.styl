@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700');
 @require 'partials/reset.style-master/index.styl'
 
-
 use_reset('meyer')
 
 reset('all')
@@ -11,6 +10,25 @@ reset('all')
 	font-size 1.2rem !important
 	font-family 'Source Sans Pro' !important
 /* basic styles */
+div
+	padding 10px
+
+.separator:after
+		content ""
+		display block
+		height 2px
+		width 50%
+		margin 0 auto
+		margin-top 25px 
+		background-color grey
+
+.container
+	width 75%
+	margin 0 auto
+
+/* Navigation */
+
+@require 'partials/navigation.styl'
 
 /* Typography */
 

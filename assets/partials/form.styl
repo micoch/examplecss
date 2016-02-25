@@ -4,6 +4,7 @@ input
 	border-left 1px solid grey
 	border-bottom 2px solid grey
 	margin-bottom 10px
+	margin-left 10px
 	padding-left 10px
 	padding-bottom 5px
 	width 100%
@@ -27,21 +28,29 @@ button
 	margin 10px
 	font-weight 300
 	background none
-	border 1px 1px 2px 2px solid grey
+	border 2px solid grey	
 	&:focus
-		outline none
+		box-shadow none
+		z-index 1
+		box-shadow 0 10px 10px -5px grey
+	&:active
+		box-shadow none
 		
 .primary
+	color blue
+	border-color blue
 	&:focus
 		color blue
 		font-weight 400
-		border-color blue
+		outline blue		
 		z-index 1
 		box-shadow 0 10px 10px -5px blue
 .danger
+	color red
+	border-color red
 	&:focus
 		color red
 		font-weight 400
-		border-color red
+		outline red		
 		z-index 1
 		box-shadow 0 10px 10px -5px red

@@ -34,6 +34,29 @@ input
 		z-index 1
 		box-shadow 0 10px 10px -1px steelblue
 		position relative
+button
+	width 300px
+	height 40px
+	margin 10px
+	font-size 1rem !important
+	background none
+	border 1px 1px 2px 2px solid grey
+	&:focus
+		outline none
+		
+.primary
+	&:focus
+		color blue
+		border-color blue
+		z-index 1
+		box-shadow 0 10px 10px -5px blue
+.danger
+	&:focus
+		color red
+		border-color red
+		z-index 1
+		box-shadow 0 10px 10px -5px red
+		
 /* basic styles */
 div, article, section, aside
 	padding 10px

@@ -10,53 +10,6 @@ reset('all')
 	font-size 1.2rem !important
 	font-family 'Source Sans Pro' !important
 	
-/* Form Styles */
-
-input
-	font-size 1rem !important
-	border none
-	border-left 1px solid grey
-	border-bottom 2px solid grey
-	margin-bottom 10px
-	padding-left 10px
-	padding-bottom 5px
-	width 100%
-	&:placeholder-shown
-		padding-left 10px
-		padding-bottom 5px
-	&:first-of-type
-		margin-top 10px
-	&:focus
-		outline none
-		color steelblue
-		border-left-color steelblue
-		border-bottom-color steelblue
-		z-index 1
-		box-shadow 0 10px 10px -1px steelblue
-		position relative
-button
-	width 300px
-	height 40px
-	margin 10px
-	font-size 1rem !important
-	background none
-	border 1px 1px 2px 2px solid grey
-	&:focus
-		outline none
-		
-.primary
-	&:focus
-		color blue
-		border-color blue
-		z-index 1
-		box-shadow 0 10px 10px -5px blue
-.danger
-	&:focus
-		color red
-		border-color red
-		z-index 1
-		box-shadow 0 10px 10px -5px red
-		
 /* basic styles */
 div, article, section, aside
 	padding 10px
@@ -81,4 +34,8 @@ div, article, section, aside
 /* Typography */
 
 @require 'partials/typography.styl'
+
+/* Froms */
+
+@require 'partials/form.styl'
 	

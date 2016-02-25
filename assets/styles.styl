@@ -9,8 +9,33 @@ reset('all')
 *
 	font-size 1.2rem !important
 	font-family 'Source Sans Pro' !important
+	
+/* Form Styles */
+
+input
+	font-size 1rem !important
+	border none
+	border-left 1px solid grey
+	border-bottom 2px solid grey
+	margin-bottom 10px
+	padding-left 10px
+	padding-bottom 5px
+	width 100%
+	&:placeholder-shown
+		padding-left 10px
+		padding-bottom 5px
+	&:first-of-type
+		margin-top 10px
+	&:focus
+		outline none
+		color steelblue
+		border-left-color steelblue
+		border-bottom-color steelblue
+		z-index 1
+		box-shadow 0 10px 10px -1px steelblue
+		position relative
 /* basic styles */
-div
+div, article, section, aside
 	padding 10px
 
 .separator:after

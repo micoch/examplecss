@@ -6,3 +6,7 @@ It will also eventually provide me with my own "framework" that I will have comp
 ### [reset.styl](http://github.com/kizu/reset.styl)
 
 I have incorporated kizu's reset.styl to easily incorporate resets.
+
+### [responsive grids](http://adamkaplan.me/grid) by adam kaplan
+
+As I dive into creating a grid system for my examplecss I came across a nice tutorial by adam kaplan that touches on the basics of incorporating your own simple grid system.  A nother resource I want to mention was by [the grid generator](http://www.responsivegridsystem.com/calculator) built by Graham Miller.

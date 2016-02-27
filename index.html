@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>css.dev</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="./assets/dist/styles.css">
 </head>
 <body>
@@ -21,18 +22,33 @@
 				<li><a href="#">item 3</a></li>
 			</ul>
 		</nav>
-		<input type="text" placeholder="Name">
-		<input type="text" placeholder="Email">
-		<input type="text" placeholder="Phone Number">
-		<button class="primary">submit</button>
-		<button class="danger">cancel</button>
-	</div>
-	<footer class="container">
+		<div class="row">
+			<div class="column two-thirds">
+				<input type="text" placeholder="Name">
+				<input type="text" placeholder="Email">
+				<input type="text" placeholder="Phone Number">
+				<button class="primary">submit</button>
+				<button class="danger">cancel</button>
+			</div>
+			<div class="column one-third">
+				<h2 class="centered middle" style="height: 190px;">Sign up, and recieve access to every channel!</h2>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="column one-fourth"></div>
+			<div class="column half">
+				<p class="centered">This paragraph should take up half of the available space in the row</p>
+			</div>
+		</div>
+		<footer>
 		<ul class="footer-links">
 			<li><a href="#">link 1</a></li>
 			<li><a href="#">link 2</a></li>
 			<li><a href="#">link 3</a></li>
 		</ul>
 	</footer>
+	</div>
+	
 </body>
 </html>

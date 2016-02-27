@@ -9,6 +9,8 @@ reset('all')
 *
 	font-size 1.2rem !important
 	font-family 'Source Sans Pro' !important
+*, *:before, *:after
+	box-sizing border-box
 	
 /* basic styles */
 div, article, section, aside
@@ -27,6 +29,40 @@ div, article, section, aside
 	width 75%
 	max-width 1200px
 	margin 0 auto
+.centered
+	text-align center
+.middle
+	display flex
+	align-items center
+/* Grid Rules */
+
+.row
+	zoom 1
+	&:after
+		clear both
+.row:before, .row:after
+	content ""
+	display table
+
+.column
+	float left
+	padding-left 1rem
+	padding-right 1rem
+.column.full
+	width 100%
+.column.three-fourths
+	width 75%
+.column.two-thirds
+	width 66.7%
+.column.half
+	width 50%
+.column.one-third
+	width 33.3%
+.column.one-fourth
+	width 25%
+.column.pull
+	float right 
+
 
 /* Navigation */
 

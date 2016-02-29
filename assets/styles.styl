@@ -25,9 +25,11 @@ reset('all')
 		background-color grey
 
 .container
-	width 75%
-	max-width 1200px
 	margin 0 auto
+@media (min-width: 960px)
+	.container
+		width 70%
+		max-width 1200px
 .centered
 	text-align center
 .middle

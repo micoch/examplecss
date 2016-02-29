@@ -13,8 +13,7 @@ reset('all')
 	box-sizing border-box
 	
 /* basic styles */
-div, article, section, aside
-	padding 10px
+
 
 .separator:after
 		content ""
@@ -36,33 +35,7 @@ div, article, section, aside
 	align-items center
 /* Grid Rules */
 
-.row
-	zoom 1
-	&:after
-		clear both
-.row:before, .row:after
-	content ""
-	display table
-
-.column
-	float left
-	padding-left 1rem
-	padding-right 1rem
-.column.full
-	width 100%
-.column.three-fourths
-	width 75%
-.column.two-thirds
-	width 66.7%
-.column.half
-	width 50%
-.column.one-third
-	width 33.3%
-.column.one-fourth
-	width 25%
-.column.pull
-	float right 
-
+@require 'partials/grid.styl'
 
 /* Navigation */
 
